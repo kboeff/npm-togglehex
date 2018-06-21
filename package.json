@@ -1,0 +1,16 @@
+{
+  "name": "npm-togglehex",
+  "version": "1.0.3",
+  "description": "Converts hexadecimal color codes to rgb format and reverse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-togglehex"
+  },
+  "keywords": [
+    "hexToRGB",
+    "hex",
+    "rgb"
+  ],
+  "author": "kbo",
+  "license": "ISC"
+}
