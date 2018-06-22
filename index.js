@@ -1,7 +1,7 @@
-// let hex = "#ffaa22";
-
 const hexFunc = (input) => {
 	let answer = "";
+	// checks the input for "rgb" format, otherwise hexadecimal is assumed
+	// TODO: verify input
 	if(input.includes("rgb")) {
 		input = input.replace("rgb", "")
 					 .replace("(", "")
